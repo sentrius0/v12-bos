@@ -6,14 +6,13 @@ message.channel.bulkDelete(args[0]).then(() => {
   message.channel.send(` ${args[0]} Adet Mesajı Sildim. ✅`).then(msg => msg.delete(5000));
 })
 }
-///discord.gg/qGWXFs8
 exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: ['sil'],
   permLevel: 2
 };
-///discord.gg/qGWXFs8
+
 exports.help = {
   name: 'temizle',
   description: 'Belirlenen miktarda mesajı siler.',
